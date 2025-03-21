@@ -1,0 +1,263 @@
+body{
+    margin: 0px;
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+}
+
+hr{
+    border: 1px solid lightgray;
+}
+
+header{
+    background-color: #C4170C;
+    height: 5rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    z-index: 9;
+    top: 0;
+    width: 100vw;
+    position: sticky;
+}
+
+.div-header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 99%;
+    margin: auto;
+}
+
+.menu-div{
+    display: flex;
+    width: 12rem;
+}
+
+.linha-vertical{
+    border: 0.5px solid white;
+    border-style: dashed;
+    height: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1.91rem;
+}
+
+.menu-hamburguer{
+    width: 1.9rem;
+    height: 1.9rem;
+    margin-top: 1.6rem;
+}
+
+.menu{
+    margin-top: 1.8rem;
+    right:1.3rem;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.2rem;
+    margin-left: 0.7rem;
+    font-size: 2rem;
+}
+
+.categoria{
+    margin-top: 1.2rem;
+    font-weight: 100;
+    font-size: 2rem; 
+}
+
+.c-busca{
+    background-color: #A7140A;
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.c-busca::placeholder{
+    padding: 2rem;
+    color: white;
+    font-weight: 900;
+}
+
+.lupa-img{
+    position: relative;
+    right: 10.8rem;
+    top: 0.5rem;
+    width: 1.5rem;
+}
+
+.categoria-2{
+    background-color: #A7140A;
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+}
+
+.sub-categoria{
+    margin: 0px;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.main{
+    width: 50%;
+    margin: auto;
+}
+
+.titulo-r{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.resumo-texto{
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+.j-cor{
+    color: #333;
+    margin-bottom: 0.1rem;
+}
+
+.jornalista{
+    color: #A7140A;
+    font-weight: bold;
+}
+
+.texto-light{
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 0.1rem;
+}
+
+.compartilhar{
+    display: flex;
+}
+
+.rede{
+    background-color: #ece7e7;
+    width: 13rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.c-img{
+    width: 2rem;
+    margin-top:0.5rem ;
+}
+
+.reportagem-img{
+    width: 42rem;
+    height: 25rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+}
+
+.reportagem-texto{
+    color: #272626;
+}
+
+.a-texto{
+    text-align: center;
+}
+
+.anuncio{
+    width: 25rem;
+    margin-left: 10rem;
+    align-items: center;
+}
+
+footer{
+    background-color: #C4170C;
+    padding: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    font-size: 2rem;
+}
+
+@media (max-width: 1000px){
+    body{
+        font-family: 'Open Sans';
+        position: static;
+    }
+    .div-header{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .menu-div{
+        width: 3rem;
+    }
+
+    .menu{
+        width: 0rem;
+        height: 0rem;
+        font-size: 0px;
+    }
+
+    .linha-vertical{
+        width: 0px;
+        height: 0px;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu-hamburguer{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+        margin-left:3px;
+        margin-top: 1.3rem;
+    }
+
+    .categoria{
+        font-size: 1.3rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .c-busca{
+        width: 0px;
+        height: 0px;
+    }
+
+    .lupa-img{
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+        width: 1.5rem;
+        position: static;
+        
+    }
+
+    .main{
+        width: 90%;
+        margin: auto;
+    }
+
+    .titulo-r{
+        font-size: 2rem;
+    }
+
+    .reportagem-img{
+        width: 90vw;
+        height: 20rem;
+    }
+
+    .anuncio{
+        width: 90vw;
+        margin: 0px;
+    }
+}
